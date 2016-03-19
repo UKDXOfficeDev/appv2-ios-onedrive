@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FEDA8121C9DA17D003B918F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDA8111C9DA17D003B918F /* AppDelegate.swift */; };
+		4FEDA8141C9DA17D003B918F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDA8131C9DA17D003B918F /* ViewController.swift */; };
+		4FEDA8171C9DA17D003B918F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEDA8151C9DA17D003B918F /* Main.storyboard */; };
+		4FEDA8191C9DA17E003B918F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEDA8181C9DA17D003B918F /* Images.xcassets */; };
+		4FEDA81C1C9DA17E003B918F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FEDA81A1C9DA17E003B918F /* LaunchScreen.xib */; };
+		4FEDA8281C9DA17E003B918F /* OneDriveClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDA8271C9DA17E003B918F /* OneDriveClientTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FEDA8221C9DA17E003B918F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FEDA8041C9DA17D003B918F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FEDA80B1C9DA17D003B918F;
+			remoteInfo = OneDriveClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FEDA80C1C9DA17D003B918F /* OneDriveClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneDriveClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEDA8101C9DA17D003B918F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEDA8111C9DA17D003B918F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FEDA8131C9DA17D003B918F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FEDA8161C9DA17D003B918F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FEDA8181C9DA17D003B918F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4FEDA81B1C9DA17E003B918F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4FEDA8211C9DA17E003B918F /* OneDriveClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneDriveClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEDA8261C9DA17E003B918F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEDA8271C9DA17E003B918F /* OneDriveClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneDriveClientTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FEDA8091C9DA17D003B918F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEDA81E1C9DA17E003B918F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FEDA8031C9DA17D003B918F = {
+			isa = PBXGroup;
+			children = (
+				4FEDA80E1C9DA17D003B918F /* OneDriveClient */,
+				4FEDA8241C9DA17E003B918F /* OneDriveClientTests */,
+				4FEDA80D1C9DA17D003B918F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FEDA80D1C9DA17D003B918F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FEDA80C1C9DA17D003B918F /* OneDriveClient.app */,
+				4FEDA8211C9DA17E003B918F /* OneDriveClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FEDA80E1C9DA17D003B918F /* OneDriveClient */ = {
+			isa = PBXGroup;
+			children = (
+				4FEDA8111C9DA17D003B918F /* AppDelegate.swift */,
+				4FEDA8131C9DA17D003B918F /* ViewController.swift */,
+				4FEDA8151C9DA17D003B918F /* Main.storyboard */,
+				4FEDA8181C9DA17D003B918F /* Images.xcassets */,
+				4FEDA81A1C9DA17E003B918F /* LaunchScreen.xib */,
+				4FEDA80F1C9DA17D003B918F /* Supporting Files */,
+			);
+			path = OneDriveClient;
+			sourceTree = "<group>";
+		};
+		4FEDA80F1C9DA17D003B918F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FEDA8101C9DA17D003B918F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FEDA8241C9DA17E003B918F /* OneDriveClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FEDA8271C9DA17E003B918F /* OneDriveClientTests.swift */,
+				4FEDA8251C9DA17E003B918F /* Supporting Files */,
+			);
+			path = OneDriveClientTests;
+			sourceTree = "<group>";
+		};
+		4FEDA8251C9DA17E003B918F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FEDA8261C9DA17E003B918F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FEDA80B1C9DA17D003B918F /* OneDriveClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEDA82B1C9DA17E003B918F /* Build configuration list for PBXNativeTarget "OneDriveClient" */;
+			buildPhases = (
+				4FEDA8081C9DA17D003B918F /* Sources */,
+				4FEDA8091C9DA17D003B918F /* Frameworks */,
+				4FEDA80A1C9DA17D003B918F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneDriveClient;
+			productName = OneDriveClient;
+			productReference = 4FEDA80C1C9DA17D003B918F /* OneDriveClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FEDA8201C9DA17E003B918F /* OneDriveClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEDA82E1C9DA17E003B918F /* Build configuration list for PBXNativeTarget "OneDriveClientTests" */;
+			buildPhases = (
+				4FEDA81D1C9DA17E003B918F /* Sources */,
+				4FEDA81E1C9DA17E003B918F /* Frameworks */,
+				4FEDA81F1C9DA17E003B918F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FEDA8231C9DA17E003B918F /* PBXTargetDependency */,
+			);
+			name = OneDriveClientTests;
+			productName = OneDriveClientTests;
+			productReference = 4FEDA8211C9DA17E003B918F /* OneDriveClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FEDA8041C9DA17D003B918F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Peter Daukintis";
+				TargetAttributes = {
+					4FEDA80B1C9DA17D003B918F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					4FEDA8201C9DA17E003B918F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 4FEDA80B1C9DA17D003B918F;
+					};
+				};
+			};
+			buildConfigurationList = 4FEDA8071C9DA17D003B918F /* Build configuration list for PBXProject "OneDriveClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FEDA8031C9DA17D003B918F;
+			productRefGroup = 4FEDA80D1C9DA17D003B918F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FEDA80B1C9DA17D003B918F /* OneDriveClient */,
+				4FEDA8201C9DA17E003B918F /* OneDriveClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FEDA80A1C9DA17D003B918F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEDA8171C9DA17D003B918F /* Main.storyboard in Resources */,
+				4FEDA81C1C9DA17E003B918F /* LaunchScreen.xib in Resources */,
+				4FEDA8191C9DA17E003B918F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEDA81F1C9DA17E003B918F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FEDA8081C9DA17D003B918F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEDA8141C9DA17D003B918F /* ViewController.swift in Sources */,
+				4FEDA8121C9DA17D003B918F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEDA81D1C9DA17E003B918F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEDA8281C9DA17E003B918F /* OneDriveClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FEDA8231C9DA17E003B918F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FEDA80B1C9DA17D003B918F /* OneDriveClient */;
+			targetProxy = 4FEDA8221C9DA17E003B918F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FEDA8151C9DA17D003B918F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FEDA8161C9DA17D003B918F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FEDA81A1C9DA17E003B918F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FEDA81B1C9DA17E003B918F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FEDA8291C9DA17E003B918F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FEDA82A1C9DA17E003B918F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FEDA82C1C9DA17E003B918F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OneDriveClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FEDA82D1C9DA17E003B918F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OneDriveClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4FEDA82F1C9DA17E003B918F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OneDriveClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneDriveClient.app/OneDriveClient";
+			};
+			name = Debug;
+		};
+		4FEDA8301C9DA17E003B918F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OneDriveClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneDriveClient.app/OneDriveClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FEDA8071C9DA17D003B918F /* Build configuration list for PBXProject "OneDriveClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEDA8291C9DA17E003B918F /* Debug */,
+				4FEDA82A1C9DA17E003B918F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FEDA82B1C9DA17E003B918F /* Build configuration list for PBXNativeTarget "OneDriveClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEDA82C1C9DA17E003B918F /* Debug */,
+				4FEDA82D1C9DA17E003B918F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FEDA82E1C9DA17E003B918F /* Build configuration list for PBXNativeTarget "OneDriveClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEDA82F1C9DA17E003B918F /* Debug */,
+				4FEDA8301C9DA17E003B918F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FEDA8041C9DA17D003B918F /* Project object */;
+}
