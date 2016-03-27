@@ -67,10 +67,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "MyTestCell")
-
-        cell.textLabel?.text = self.tableData[indexPath.row].name
-        cell.detailTextLabel?.text = self.tableData[indexPath.row].desc
+        let cell: CustomCell = tableView.dequeueReusableCellWithIdentifier("Cell") as! CustomCell
+        
+        cell.TitleLabel.text = self.tableData[indexPath.row].name
+        cell.DescLabel.text = self.tableData[indexPath.row].desc
         
         return cell
     }
